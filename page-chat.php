@@ -192,7 +192,7 @@ bp_nouveau_before_loop(); ?>
 						</div>
 					</div>
 				</div>
-            <!-- Конец -->
+            <!-- Конец --> 
 <hr>
 			<!-- Блок добавления новой группы -->
 			<div class="container-new-group">

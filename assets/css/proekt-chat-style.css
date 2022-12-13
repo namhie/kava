@@ -632,7 +632,7 @@ padding-right: 20px;
     margin-top: 20px;
 }
 
-.text-field__input_group_name {
+.text-field__input_group_name { 
     width: 100%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
