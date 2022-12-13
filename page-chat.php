@@ -193,6 +193,57 @@ bp_nouveau_before_loop(); ?>
 					</div>
 				</div>
             <!-- Конец -->
+<hr>
+			<!-- Блок добавления новой группы -->
+			<div class="container-new-group">
+					<div>
+						<input class="text-field__input_sidebar" type="search" name="search" id="search" placeholder="Введите название группы, имя участника, товар в описании группы или тег">
+					</div>
+
+					<div class="n_g_head">
+						<div>
+							<div>
+								<ul class="breadcrumb">
+									<li>
+										<a href="#link">Главная /</a>
+									</li>    
+									<li>
+										<a href="#link">Группы /</a>
+									</li>
+									<li>
+										<a href="#link">Мои группы /</a>
+									</li> 
+									<li>
+										<a href="#link">Сайты /</a>
+									</li>   
+									<li>
+									<input class="text-field__input_group_name" type="search" name="search" placeholder="Введите название">
+									</li>
+								</ul>
+							</div>
+							
+							<div>
+								<a href="#" class="n-g-members">Участники:</a>
+								<a href="#" class="n-g-members-tag">Петров</a>
+								<a href="#" class="n-g-members-tag">Сидоров</a>
+								<button class="n-g-members-add">Добавить</button>
+							</div>
+
+							<div>
+								<a href="#" class="n-g-comments">Обсудить и ответить на вопросы Бота</a>
+								
+							</div>
+						</div>	
+
+						<div>
+							<button class="n_p_foot_btn_add">Создать<br>новую группу</button>
+						</div>
+					</div>
+
+					<div class="n_g_foot">
+					</div>
+				</div>
+            <!-- Конец -->
 
             <!-- Верстка вывода товара в группе -->
 				<div class="post-wrapper">
