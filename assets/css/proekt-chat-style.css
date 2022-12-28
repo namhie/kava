@@ -461,6 +461,7 @@ ul.breadcrumb li a:hover {
     grid-auto-flow: row;
     width: 100%;
     margin-bottom: 30px;
+    position: relative;
 }	
 
 .post-author, .post-author a {
@@ -480,6 +481,7 @@ ul.breadcrumb li a:hover {
 
 .post-image-block {
 padding-right: 20px;
+
 }
 
 .post-description {
@@ -508,6 +510,20 @@ padding-right: 20px;
     line-height: 1.4em;
     color: #000000;
     margin: 10px 0 0 0;
+}
+
+.po-comments-btn {
+    position: absolute;
+    left: 8px;
+    top: 40px;
+}
+
+.po-comments-number {
+    margin: -7px 0 0 4px;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
 }
 
 .post-date-block {

@@ -251,6 +251,10 @@ bp_nouveau_before_loop(); ?>
 					<div class="post-image-block">
 						<span class="post-author"><a href="#">@Виктор Проскурин</a></span>
 						<img src="<?= get_template_directory_uri() ?>/assets/images/img/post-img.jpg" class="post-img">	
+							<div class="po-comments-btn">
+								<img src="<?= get_template_directory_uri() ?>/assets/images/img/svg/add_comment-white.svg">
+								<span class="po-comments-number">11</span>
+							</div>
 					</div>
 
 					<div class="post-descriprion-block">
