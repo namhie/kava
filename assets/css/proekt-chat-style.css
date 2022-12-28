@@ -538,8 +538,9 @@ padding-right: 20px;
     border: none;
     color: white;
     padding: 9px 16px;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
+    text-transform: none;
     width: 100%;
     font-family: 'Montserrat', serif;
     font-weight: 500; 
@@ -548,6 +549,43 @@ padding-right: 20px;
 
 .tocart:hover {
     background-color: #1A3688;
+}
+
+/* New product */
+.product-container {
+    display: grid;
+    grid-template-columns: 4% 10% 56% 30%;
+    grid-auto-flow: row;
+    width: 100%;
+    margin: 30px 0px;
+    align-items: center;
+}
+
+.pr-img {
+    text-align: center;
+}
+
+.pr-img img {
+    width: 80%;
+}
+
+.pr-description-container {
+    padding: 0px 10px;
+}
+
+.pr-heading {
+    padding: 0;
+    margin: 0;
+    line-height: 1.2em;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pr-comments-number {
+    position: absolute;
+    margin: -15px 0 0 0;
+    font-size: 12px;
+    font-weight: 400;
 }
 	
 /* New product Add */

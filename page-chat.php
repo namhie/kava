@@ -285,6 +285,53 @@ bp_nouveau_before_loop(); ?>
 
             <!-- Конец -->
 
+            <!-- Верстка вывода товара в группе -->
+			<div class="product-container">
+				<div class="icon-block">
+					<img src="<?= get_template_directory_uri() ?>/assets/images/img/svg/add_comment.svg" class="forum-btn">
+					<span class="pr-comments-number">11</span>
+				</div>
+				
+				<div class="pr-img">
+					<img src="<?= get_template_directory_uri() ?>/assets/images/img/product-img.png" class="pr-img">
+				</div>
+				
+				<div class="pr-description-container">
+					<h3 class="pr-heading">Контекстная реклама</h3>
+					<div class="pr-description">Настройка контекстной рекламы в Яндекс. Директ...</div>
+				</div>
+
+				<div>
+					<div class="post-price"><span class="old-price">40 000₽</span>36 000₽</div>
+					<div>
+						<button class="tocart"><i class="fa fa-shopping-cart"></i> В корзину</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="product-container">
+				<div class="icon-block">
+					<img src="<?= get_template_directory_uri() ?>/assets/images/img/svg/add_comment.svg" class="forum-btn">
+					<span class="pr-comments-number">11</span>
+				</div>
+				
+				<div class="pr-img">
+					<img src="<?= get_template_directory_uri() ?>/assets/images/img/product-img.png" class="pr-img">
+				</div>
+				
+				<div class="pr-description-container">
+					<h3 class="pr-heading">Контекстная реклама</h3>
+					<div class="pr-description">Настройка контекстной рекламы в Яндекс. Директ...</div>
+				</div>
+
+				<div>
+					<div>
+						<button class="tocart">Подробнее</button>
+					</div>
+				</div>
+			</div>
+			<!-- Конец -->
+
 				<div class="post-wrapper">
 
 					<div class="post-image-block">
